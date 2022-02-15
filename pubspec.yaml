@@ -1,0 +1,36 @@
+name: bcoffee
+description: Bibir Kopi is application that helps people to buy coffee online.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  cloud_firestore: any
+  cupertino_icons: ^1.0.2
+  email_validator: ^2.0.1
+  equatable: ^2.0.3
+  firebase_auth: any
+  firebase_database: any
+  firebase_storage: any
+  flushbar: ^1.10.4
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^3.2.0
+  flutter_spinkit: ^5.1.0
+  google_fonts: ^2.3.1
+  image_picker: ^0.8.4+8
+  material_design_icons_flutter: ^5.0.6595
+  provider: ^4.0.4
+  supercharged: ^2.1.1
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
